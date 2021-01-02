@@ -25,7 +25,7 @@ go version go1.13.8 linux/amd64
 
 5.- Enable plugin on `plugin.cfg`. Add `couchdb:couchdb` at the end of the file
 
-`echo "couchdb:couchdb" >> couchdb/plugin.cfg`
+`echo "couchdb:couchdb" >> coredns/plugin.cfg`
 
 ```bash
 # Directives are registered in the order they should be executed.
